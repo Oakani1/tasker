@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-!eot-hnspfh)-if@1ygjldde7edq8trcldj^o3z6v2^vw7s6xz
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['.codeinstitute-ide.net',]
+ALLOWED_HOSTS = ['.codeinstitute-ide.net','.herokuapp.com']
 
 
 # Application definition
@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'demo_app',
+
 ]
 
 MIDDLEWARE = [
